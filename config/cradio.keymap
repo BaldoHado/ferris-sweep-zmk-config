@@ -21,10 +21,10 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_LEFT";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <210>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
             // Right side keys + right thumbs
@@ -37,10 +37,10 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_RIGHT";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <210>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
             // Left side keys + left thumbs
